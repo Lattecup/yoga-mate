@@ -1,0 +1,19 @@
+.hero__book-button {
+  width: 217px;
+  height: 69px;
+  padding: 0;
+  margin-top: 48px;
+  border: none;
+  cursor: pointer;
+  border-radius: 60px;
+  background-color: #FA8072;
+  color: #002366;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.16;
+  transition: opacity 1s;
+}
+
+.hero__book-button:hover {
+  opacity: 0.5;
+}

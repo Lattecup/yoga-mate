@@ -1,0 +1,7 @@
+.features__list {
+  margin: 0 50px 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}

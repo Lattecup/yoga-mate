@@ -1,0 +1,7 @@
+.description {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 100px 60px 60px;
+  background-color: #FFDAB9;
+}

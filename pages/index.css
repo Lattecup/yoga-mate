@@ -19,7 +19,7 @@
 @import url(../blocks/features/__image/features__image.css);
 @import url(../blocks/features/__title/features__title.css);
 @import url(../blocks/features/__paragraph/features__paragraph.css);
-@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about/about.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__image/description__image.css);
 @import url(../blocks/description/__main-text/description__main-text.css);
@@ -27,3 +27,18 @@
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__paragraph/description__paragraph.css);
 @import url(../blocks/button/__read/button__read.css);
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/content/services__content.css);
+@import url(../blocks/services/main-text/services__main-text.css);
+@import url(../blocks/services/services__subtitle/services__subtitle.css);
+@import url(../blocks/services/services__title/services__title.css);
+@import url(../blocks/services/services__paragraph/services__paragraph.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__title/video__title.css);

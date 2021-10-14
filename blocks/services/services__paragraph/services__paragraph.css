@@ -1,0 +1,8 @@
+.services__paragraph {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  color: rgba(0, 35, 102, 0.6);
+}

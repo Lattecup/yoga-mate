@@ -1,4 +1,4 @@
 .features {
-  width: calc(100% - 140px);
+  max-width: 950px;
   margin: 50px auto;
 }

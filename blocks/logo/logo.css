@@ -1,4 +1,4 @@
-.header__logo {
+.logo {
   display: block;
   background-image: url(../../../images/logo.svg);
   background-repeat: no-repeat;
@@ -8,6 +8,6 @@
   transition: opacity 1s;
 }
 
-.header__logo:hover {
+.logo:hover {
   opacity: 0.5;
 }

@@ -1,0 +1,9 @@
+.blog__title {
+  margin: 18px 0 33px;
+  width: 70%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #FFFFFF;
+  text-align: justify;
+}

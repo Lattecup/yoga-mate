@@ -1,0 +1,7 @@
+.cards-blog {
+  margin-top: 33px;
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  overflow: hidden;
+}

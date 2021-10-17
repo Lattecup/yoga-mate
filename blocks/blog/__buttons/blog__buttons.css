@@ -1,0 +1,4 @@
+.blog__buttons {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,5 @@
+.card-blog__image {
+  max-width: 255px;
+  max-height: 355px;
+  border-radius: 12px;
+}

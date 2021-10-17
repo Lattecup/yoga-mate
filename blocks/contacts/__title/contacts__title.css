@@ -1,0 +1,9 @@
+.contacts__title {
+  margin: 0;
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #FA8072;
+}

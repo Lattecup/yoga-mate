@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>YogaMate</title>
+  <title>yogamate</title>
 </head>
 <body class="page">
   <header class="header">
-    <a href="#" class="header__logo"></a>
+    <a href="#" class="logo"></a>
     <nav>
       <ul class="header__menu">
         <li>
@@ -28,25 +28,30 @@
           <a href="#blog" class="header__menu-item">Blog</a>
         </li>
         <li>
-          <a href="#contact" class="header__menu-item">Contact</a>
+          <a href="#contact" class="header__menu-item">Contact us</a>
         </li>
       </ul>
     </nav>
     <nav>
-      <ul class="header__social">
+      <ul class="social">
         <li>
-          <a href="#" class="header__social-link">
-            <img src="./images/facebook.svg" alt="Facebook" class="header__social-icon">
+          <a href="#" class="social__link">
+            <img src="./images/facebook.svg" alt="Facebook" class="social__icon">
           </a>
         </li>
         <li>
-          <a href="#" class="header__social-link">
-            <img src="./images/instagram.svg" alt="Instagram" class="header__social-icon">
+          <a href="#" class="social__link">
+            <img src="./images/instagram.svg" alt="Instagram" class="social__icon">
           </a>
         </li>
         <li>
-          <a href="#" class="header__social-link">
-            <img src="./images/in.svg" alt="In" class="header__social-icon">
+          <a href="#" class="social__link">
+            <img src="./images/linkedin.svg" alt="Linkedin" class="social__icon">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social__link">
+            <img src="./images/twitter.svg" alt="Twitter" class="social__icon">
           </a>
         </li>
       </ul>
@@ -128,9 +133,114 @@
 
     <section id="video" class="video">
       <h2 class="video__title">The pose begins when you want to leave it.</h2>       
-      <iframe src="https://www.youtube.com/embed/loszrEZvS_k" class="video__iframe"></iframe>        
+      <iframe src="https://www.youtube.com/embed/loszrEZvS_k" class="video__iframe" allowfullscreen></iframe>        
     </section>
-  </main>
 
+    <section id="blog" class="blog">
+      <div class="blog__content">
+        <p class="blog__subtitle">Blog</p>
+        <h2 class="blog__title">Yoga is not a work-out it is a work-in, and this is the point of spiritual practice to make us teachable to open up our hearts and focus our awareness so that we can know what we already know and be who we already are.</h2>
+        <div class="blog__buttons">
+          <button type="button" class="blog__button blog__button_next">
+          <button type="button" class="blog__button blog__button_back">
+        </div>
+        <div class="cards-blog">
+          <article class="card-blog">
+            <img src="./images/img-blog-1.jpg" alt="Blog image" class="card-blog__image">
+            <h3 class="card-blog__title">Body neutrality is what body love looks like in everyday life</h3>
+            <p class="card-blog__paragraph">Sometimes when I talk with people, they say something that makes me really uncomfortable. It usually happens during a conversation about our relationships with our bodies and how we’re working with body acceptance.</p>
+            <button type="button" class="button button__read_dark">Read more</button>
+          </article>
+          <article class="card-blog">
+            <img src="./images/img-blog-2.jpg" alt="Blog image" class="card-blog__image">
+            <h3 class="card-blog__title">The Unexpected Ways Body Acceptance Simplified My Life</h3>
+            <p class="card-blog__paragraph">Of all the things I expected from body acceptance (and that list was very long, trust me), what never even crossed my mind is that it would greatly simplify my life. But it has.</p>
+            <button type="button" class="button button__read_dark">Read more</button>
+          </article>
+          <article class="card-blog">
+            <img src="./images/img-blog-3.jpg" alt="Blog image" class="card-blog__image">
+            <h3 class="card-blog__title">What I’ve Learned from 10+ Years of Body Acceptance</h3>
+            <p class="card-blog__paragraph">Someone recently asked me how long I’ve been on my body acceptance journey, and I realized it’s been more than a decade. It’s hard to pinpoint the beginning exactly because there was quite a while when I kept thinking there had to be another way than my years of chronic dieting.</p>
+            <button type="button" class="button button__read_dark">Read more</button>
+          </article>
+          <article class="card-blog">
+            <img src="./images/img-blog-4.jpg" alt="Blog image" class="card-blog__image">
+            <h3 class="card-blog__title">Why Letting Go of Your Fantasy Practice Isn’t a Bad Thing</h3>
+            <p class="card-blog__paragraph">I’ve never been a New Year’s resolutions person. For most of my life, that wasn’t because I didn’t think they were a good idea.</p>
+            <button type="button" class="button button__read_dark">Read more</button>
+          </article>
+          <article class="card-blog">
+            <img src="./images/img-blog-5.jpg" alt="Blog image" class="card-blog__image">
+            <h3 class="card-blog__title">Why Happiness &ne; Weight Loss</h3>
+            <p class="card-blog__paragraph">So here’s the thing: when you’re fat, many people assume you’re depressed, unhappy, had a terrible childhood, experienced trauma, or are just out of touch (that is, if they just don’t imagine you’re a lazy slob and write you off completely). After all, why else would anyone be fat?</p>
+            <button type="button" class="button button__read_dark">Read more</button>
+          </article>
+          <article class="card-blog">
+            <img src="./images/img-blog-6.jpg" alt="Blog image" class="card-blog__image">
+            <h3 class="card-blog__title">What to Wear to Your First Yoga Class</h3>
+            <p class="card-blog__paragraph">One of the most frequently asked questions I receive is “Okay, I’m ready to go to a yoga class. But what do I wear?!” While on the surface this might seem like a funny, or even somewhat silly, question, it’s actually the complete opposite.</p>
+            <button type="button" class="button button__read_dark">Read more</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__contacts">
+        <nav class="contacts">
+          <a href="#" class="logo"></a>
+          <p class="contacts__slogan">Happiness is a decision, not a destination. Realize it with us!</p>
+          <div class="contacts__info">
+            <div>
+              <p class="contacts__title">Address</p>
+              <p class="contacts__text">2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
+              <p class="contacts__text">4517 Washington Ave. Manchester, Kentucky 39495</p>
+            </div>
+            <div>
+              <p class="contacts__title">Call us</p>
+              <a href="tel:+13165550116" class="contacts__text">+1 (316) 555-0116</a>
+              <p class="contacts__title">Email</p>
+              <a href="mailto:info@yogamate.com" class="contacts__text">info@yogamate.com</a>
+            </div>
+          </div>
+        </nav>
+          <form id="contact" action="" class="form" name="form-contact" novalidate>
+            <h2 class="form__title">Contact us</h2>
+            <fieldset class="form__fieldset">
+              <input type="text" placeholder="Full name" class="form__input form__input_type_name" name="name" required minlength="2" maxlength="40">
+              <input type="email" placeholder="Email address" class="form__input form__input_type_email" name="email">
+              <input type="text" placeholder="Message" class="form__input form__input_type_message" name="message" required minlength="2" maxlength="200">
+            </fieldset>
+            <button type="submit" class="form__submit-button">Send</button>
+          </form>
+      </div>
+        <nav class="footer__bottom">
+          <p class="footer__copyright">Copyrights © 2021 All Rights Reserved by yogamate Inc.</p>
+          <ul class="social">
+            <li>
+              <a href="#" class="social__link">
+                <img src="./images/facebook.svg" alt="Facebook" class="social__icon">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link">
+                <img src="./images/instagram.svg" alt="Instagram" class="social__icon">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link">
+                <img src="./images/linkedin.svg" alt="Linkedin" class="social__icon">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social__link">
+                <img src="./images/twitter.svg" alt="Twitter" class="social__icon">
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </footer>
+  </main>
+  
 </body>
 </html>

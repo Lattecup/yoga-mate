@@ -1,0 +1,22 @@
+.form__input {
+  padding: 25px 0 18px;
+  background-color: #002366;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  color: #FFFFFF;
+}
+
+.form__input:last-of-type {
+  padding-bottom: 80px;
+}
+
+.form__input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+.form__input:focus {
+  outline: none;
+}

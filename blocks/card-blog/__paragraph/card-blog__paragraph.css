@@ -1,0 +1,11 @@
+.card-blog__paragraph {
+  margin: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.6);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}

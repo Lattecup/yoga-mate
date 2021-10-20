@@ -2,3 +2,10 @@
   width: 20px;
   height: 20px;
 }
+
+@media screen and (max-width: 980px) {
+  .social__icon {
+    width: 15px;
+    height: 15px;
+  }
+}

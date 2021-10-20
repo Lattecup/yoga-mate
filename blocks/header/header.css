@@ -4,3 +4,17 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 980px) {
+  .header {
+    width: calc(100% - 100px);
+    margin: 70px auto 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    width: calc(100% - 80px);
+    margin: 70px auto 0;
+  }
+}

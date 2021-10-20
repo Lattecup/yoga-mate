@@ -6,3 +6,17 @@
   line-height: 1.18;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 980px) {
+  .hero__title {
+    max-width: 630px;
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hero__title {
+    max-width: 430px;
+    font-size: 34px;
+  }
+}

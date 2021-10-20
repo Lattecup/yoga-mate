@@ -13,3 +13,9 @@
 .button:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 760px) {
+  .button {
+    font-size: 14px;
+  }
+}

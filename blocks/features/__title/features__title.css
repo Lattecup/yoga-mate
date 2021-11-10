@@ -5,3 +5,16 @@
   line-height: 1.16;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 1234px) {
+  .features__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__title {
+    font-size: 14px;
+  }
+}
+

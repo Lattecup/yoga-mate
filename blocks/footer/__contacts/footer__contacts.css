@@ -3,3 +3,10 @@
   justify-content: space-between;
   margin-top: 60px;
 }
+
+@media screen and (max-width: 1010px) {
+  .footer__contacts {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}

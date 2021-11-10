@@ -1,6 +1,6 @@
 .hero__title {
   margin: 0;
-  max-width: 830px;
+  width: 70%;
   font-weight: 700;
   font-size: 64px;
   line-height: 1.18;
@@ -9,14 +9,24 @@
 
 @media screen and (max-width: 980px) {
   .hero__title {
-    max-width: 630px;
     font-size: 44px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .hero__title {
-    max-width: 430px;
     font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .hero__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero__title {
+    font-size: 22px;
   }
 }

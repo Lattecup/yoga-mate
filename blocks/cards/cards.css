@@ -6,3 +6,24 @@
   column-gap: 100px;
   row-gap: 70px;
 }
+
+@media screen and (max-width: 750px) {
+  .cards {
+    row-gap: 50px;
+    column-gap: 80px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .cards {
+    row-gap: 40px;
+    column-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cards {
+    row-gap: 25px;
+    column-gap: 40px;
+  }
+}

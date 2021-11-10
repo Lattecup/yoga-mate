@@ -4,3 +4,15 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 1080px) {
+  .footer {
+    width: calc(100% - 110px);
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .footer {
+    width: calc(100% - 80px);
+  }
+}

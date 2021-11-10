@@ -6,3 +6,10 @@
   text-align: justify;
   color: rgba(0, 35, 102, 0.6);
 }
+
+@media screen and (max-width: 524px) {
+  .card__description {
+    font-size: 12px;
+    text-align: unset;
+  }
+}

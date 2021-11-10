@@ -7,3 +7,29 @@
   color: #FFFFFF;
   text-align: justify;
 }
+
+@media screen and (max-width: 1200px) {
+  .blog__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .blog__title {
+    font-size: 24px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .blog__title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .blog__title {
+    font-size: 18px;
+    width: 90%;
+  }
+}

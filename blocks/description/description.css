@@ -4,3 +4,16 @@
   gap: 40px;
   padding: 100px 80px 60px;
 }
+
+@media screen and (max-width: 1040px) {
+  .description {
+    padding: 80px 60px 40px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .description {
+    flex-direction: column;
+    padding: 60px 40px 20px;
+}
+}

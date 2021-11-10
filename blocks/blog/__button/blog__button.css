@@ -12,3 +12,10 @@
 .blog__button:hover {
   background-image: url(../../../images/hover.svg), url(../../../images/arrow.svg);
 }
+
+@media screen and (max-width: 660px) {
+  .blog__button {
+    width: 20px;
+    height: 20px;
+  }
+}

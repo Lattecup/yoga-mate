@@ -3,3 +3,9 @@
   gap: 30px;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 440px) {
+  .contacts__info {
+    flex-direction: column;
+  }
+}

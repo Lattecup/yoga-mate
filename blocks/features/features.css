@@ -1,4 +1,35 @@
 .features {
-  max-width: 950px;
+  width: calc(100% - 490px);
   margin: 50px auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1404px) {
+  .features {
+    width: calc(100% - 390px);
+  }
+}
+
+@media screen and (max-width: 1304px) {
+  .features {
+    width: calc(100% - 320px);
+  }
+}
+
+@media screen and (max-width: 947px) {
+  .features {
+    width: calc(100% - 180px);
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .features {
+    width: calc(100% - 120px);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .features {
+    width: calc(100% - 80px);
+  }
 }

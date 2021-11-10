@@ -1,13 +1,34 @@
 .video__title {
-  max-width: 650px;
+  width: 80%;
   margin: 0;
   font-weight: 700;
   font-size: 48px;
   line-height: 1.5;
   text-align: center;
   color: #FFFFFF;
-  position: absolute;
-  top: 10%;
-  left: 20%;
-  z-index: 1;
 }
+
+@media screen and (max-width: 1040px) {
+  .video__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .video__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .video__title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 42px) {
+  .video__title {
+    font-size: 22px;
+  }
+}
+

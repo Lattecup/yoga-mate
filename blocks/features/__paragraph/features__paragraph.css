@@ -5,3 +5,9 @@
   line-height: 1.5;
   color: rgb(255, 255, 255, 0.6);
 }
+
+@media screen and (max-width: 1234px) {
+  .features__paragraph {
+    font-size: 14px;
+  }
+}

@@ -9,3 +9,15 @@
 .header__menu-item:hover {
   color: #FA8072;
 }
+
+@media screen and (max-width: 470px) {
+  .header__menu-item {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .header__menu-item {
+    font-size: 10px;
+  }
+}

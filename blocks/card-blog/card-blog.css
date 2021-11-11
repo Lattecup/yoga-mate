@@ -1,3 +1,6 @@
 .card-blog {
   max-width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

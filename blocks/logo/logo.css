@@ -12,14 +12,7 @@
   opacity: 0.5;
 }
 
-@media screen and (max-width: 980px) {
-  .logo {
-    width: 140px;
-    height: 43px;
-  }
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .logo {
     width: 140px;
     height: 30px;

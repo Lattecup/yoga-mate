@@ -31,7 +31,6 @@
           <a href="#contact" class="header__menu-item">Contact us</a>
         </li>
       </ul>
-      <button class="header__menu-button"></button>
     </nav>
     <nav>
       <ul class="social">
@@ -150,37 +149,37 @@
             <img src="./images/img-blog-1.jpg" alt="Blog image" class="card-blog__image">
             <h3 class="card-blog__title">Body neutrality is what body love looks like in everyday life</h3>
             <p class="card-blog__paragraph">Sometimes when I talk with people, they say something that makes me really uncomfortable. It usually happens during a conversation about our relationships with our bodies and how we’re working with body acceptance.</p>
-            <button type="button" class="button button__read_dark">Read more</button>
+            <button type="button" class="button button__read button__read_dark">Read more</button>
           </article>
           <article class="card-blog">
             <img src="./images/img-blog-2.jpg" alt="Blog image" class="card-blog__image">
             <h3 class="card-blog__title">The Unexpected Ways Body Acceptance Simplified My Life</h3>
             <p class="card-blog__paragraph">Of all the things I expected from body acceptance (and that list was very long, trust me), what never even crossed my mind is that it would greatly simplify my life. But it has.</p>
-            <button type="button" class="button button__read_dark">Read more</button>
+            <button type="button" class="button button__read button__read_dark">Read more</button>
           </article>
           <article class="card-blog">
             <img src="./images/img-blog-3.jpg" alt="Blog image" class="card-blog__image">
             <h3 class="card-blog__title">What I’ve Learned from 10+ Years of Body Acceptance</h3>
             <p class="card-blog__paragraph">Someone recently asked me how long I’ve been on my body acceptance journey, and I realized it’s been more than a decade. It’s hard to pinpoint the beginning exactly because there was quite a while when I kept thinking there had to be another way than my years of chronic dieting.</p>
-            <button type="button" class="button button__read_dark">Read more</button>
+            <button type="button" class="button button__read button__read_dark">Read more</button>
           </article>
           <article class="card-blog">
             <img src="./images/img-blog-4.jpg" alt="Blog image" class="card-blog__image">
             <h3 class="card-blog__title">Why Letting Go of Your Fantasy Practice Isn’t a Bad Thing</h3>
             <p class="card-blog__paragraph">I’ve never been a New Year’s resolutions person. For most of my life, that wasn’t because I didn’t think they were a good idea.</p>
-            <button type="button" class="button button__read_dark">Read more</button>
+            <button type="button" class="button button__read button__read_dark">Read more</button>
           </article>
           <article class="card-blog">
             <img src="./images/img-blog-5.jpg" alt="Blog image" class="card-blog__image">
             <h3 class="card-blog__title">Why Happiness &ne; Weight Loss</h3>
             <p class="card-blog__paragraph">So here’s the thing: when you’re fat, many people assume you’re depressed, unhappy, had a terrible childhood, experienced trauma, or are just out of touch (that is, if they just don’t imagine you’re a lazy slob and write you off completely). After all, why else would anyone be fat?</p>
-            <button type="button" class="button button__read_dark">Read more</button>
+            <button type="button" class="button button__read button__read_dark">Read more</button>
           </article>
           <article class="card-blog">
             <img src="./images/img-blog-6.jpg" alt="Blog image" class="card-blog__image">
             <h3 class="card-blog__title">What to Wear to Your First Yoga Class</h3>
             <p class="card-blog__paragraph">One of the most frequently asked questions I receive is “Okay, I’m ready to go to a yoga class. But what do I wear?!” While on the surface this might seem like a funny, or even somewhat silly, question, it’s actually the complete opposite.</p>
-            <button type="button" class="button button__read_dark">Read more</button>
+            <button type="button" class="button button__read button__read_dark">Read more</button>
           </article>
         </div>
       </div>
@@ -216,7 +215,7 @@
           </form>
       </div>
         <nav class="footer__bottom">
-          <p class="footer__copyright">Copyrights © 2021 All Rights Reserved by yogamate Inc.</p>
+          <p class="footer__copyright">Copyrights &copy; 2021 All Rights Reserved by yogamate Inc.</p>
           <ul class="social">
             <li>
               <a href="#" class="social__link">
@@ -240,8 +239,65 @@
             </li>
           </ul>
         </nav>
+        <p class="footer__author">&copy; 2021 Anastasia Shchipakina</p>
     </footer>
   </main>
-  
+
+  <div class="popup popup-read-more">
+    <div class="popup__container">
+      <div class="card-blog__text-content">
+        <p class="card-blog__text">Oops...</p>
+        <p class="card-blog__text">There supposed to be some content but it's non-existent site.</p>
+        <p class="card-blog__text">&#9785;</p>
+        <button type="button" class="popup__close-button" aria-label="Закрыть"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup popup-book-spot">
+    <div class="popup__container">
+      <form name="form-booking" class="hero__form-booking">
+        <fieldset class="hero__form-booking-fieldset">
+          <legend class="hero__form-booking-legend">Choose day</legend>
+            <select>
+              <option>Monday</option>
+              <option>Tuesday</option>
+              <option>Wednesday</option>
+              <option>Thursday</option>
+              <option>Friday</option>
+              <option>Saturday</option>
+              <option>Sunday</option>
+            </select>
+        </fieldset>
+        <fieldset class="hero__form-booking-fieldset">
+          <legend class="hero__form-booking-legend">Choose class</legend>
+            <select>
+              <option>Vinyasa yoga</option>
+              <option>Kundalini yoga</option>
+              <option>Bikram yoga</option>
+              <option>Restorative yoga</option>
+            </select>
+        </fieldset>
+        <fieldset class="hero__form-booking-fieldset">
+          <legend class="hero__form-booking-legend">Choose time</legend>
+            <select>
+              <option>07:00</option>
+              <option>09:00</option>
+              <option>11:00</option>
+              <option>17:00</option>
+              <option>19:00</option>
+              <option>20:00</option>
+            </select>
+        </fieldset>
+        <button type="submit" class="button button__book-spot" aria-label="Отправить">Let's go</button>
+        <button type="button" class="popup__close-button" aria-label="Закрыть"></button>        
+      </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

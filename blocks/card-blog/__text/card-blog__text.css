@@ -1,0 +1,21 @@
+.card-blog__text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.16;
+  color: #FA8072;
+  text-align: center;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 620px) {
+  .card-blog__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .card-blog__text {
+    font-size: 14px;
+  }
+}

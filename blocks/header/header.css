@@ -12,19 +12,19 @@
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 800px) {
   .header {
     width: calc(100% - 80px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 70px auto 0;
+    gap: 10px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 40px auto 0;
-    gap: 10px;
   }
 }

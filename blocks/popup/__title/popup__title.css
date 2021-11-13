@@ -1,4 +1,4 @@
-.card-blog__text {
+.popup__title {
   margin: 0;
   font-weight: 600;
   font-size: 20px;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 620px) {
-  .card-blog__text {
+  .popup__title  {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 490px) {
-  .card-blog__text {
+  .popup__title {
     font-size: 14px;
   }
 }

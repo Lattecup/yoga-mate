@@ -1,9 +1,11 @@
 const closeButtons = document.querySelectorAll('.popup__close-button');
 const readMoreButtons = document.querySelectorAll('.button__read');
 const bookSpotButton = document.querySelector('.button__book');
-const popups = document.querySelectorAll('.popup')
+const popups = document.querySelectorAll('.popup');
 const readMorePopup = document.querySelector('.popup-read-more');
 const bookSpotPopup = document.querySelector('.popup-book-spot');
+const contactUsPopup = document.querySelector('.popup-contact-us');
+const formContactElement = document.querySelector('.form-contact-us');
 
 // Открытие попапа
 const openPopup = (popup) => {
@@ -40,7 +42,7 @@ readMoreButtons.forEach((item) => {
 function openBookSpotPopup() {
   openPopup(bookSpotPopup);
 };
-  
+
 // Закрытие всех попапов
 closeButtons.forEach((button) => {
   const popup = button.closest('.popup');
@@ -60,3 +62,8 @@ popups.forEach((popup) => {
 });
 
 bookSpotButton.addEventListener('click', openBookSpotPopup);
+formContactElement.addEventListener('submit', (evt) => {
+  evt.preventDefault();
+  openPopup(contactUsPopup);
+  formContactElement.reset();
+});

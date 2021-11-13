@@ -3,3 +3,10 @@
   width: 180px;
   height: 50px;
 }
+
+@media screen and (max-width: 510px) {
+  .button__book-spot {
+    width: 150px;
+    height: 40px;
+  }
+}

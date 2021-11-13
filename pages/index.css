@@ -12,9 +12,6 @@
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
-@import url(../blocks/hero/__form-booking/hero__form-booking.css);
-@import url(../blocks/hero/__form-booking-fieldset/hero__form-booking-fieldset.css);
-@import url(../blocks/hero/__form-booking-legend/hero__form-booking-legend.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__book/button__book.css);
 @import url(../blocks/button/__book-spot/button__book-spot.css);
@@ -60,8 +57,6 @@
 @import url(../blocks/card-blog/__image/card-blog__image.css);
 @import url(../blocks/card-blog/__title/card-blog__title.css);
 @import url(../blocks/card-blog/__paragraph/card-blog__paragraph.css);
-@import url(../blocks/card-blog/__text-content/card-blog__text-content.css);
-@import url(../blocks/card-blog/__text/card-blog__text.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__bottom/footer__bottom.css);
@@ -81,3 +76,8 @@
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__form-booking/popup__form-booking.css);
+@import url(../blocks/popup/__form-booking-legend/popup__form-booking-legend.css);
+@import url(../blocks/popup/__form-booking-fieldset/popup__form-booking-fieldset.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__text/popup__text.css);

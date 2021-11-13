@@ -1,0 +1,23 @@
+.popup__form-booking-fieldset {
+  margin: 0;
+  padding: 10px 70px;
+  text-align: center;
+}
+
+@media screen and (max-width: 510px) {
+  .popup__form-booking-fieldset {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .popup__form-booking-fieldset {
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .popup__form-booking-fieldset {
+    padding: 10px 15px;
+  }
+}

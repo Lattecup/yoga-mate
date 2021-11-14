@@ -1,5 +1,5 @@
 # Yoga mate
-Landing page йога-студии.
+Одностраничный сайт йога-студии.
 ### Используемые технологии:
 * HTML5
 * CSS3 (Flexbox, Grid Layout, @media)

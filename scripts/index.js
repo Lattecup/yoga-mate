@@ -5,7 +5,9 @@ const popups = document.querySelectorAll('.popup');
 const readMorePopup = document.querySelector('.popup-read-more');
 const bookSpotPopup = document.querySelector('.popup-book-spot');
 const contactUsPopup = document.querySelector('.popup-contact-us');
+const bookMessagePopup = document.querySelector('.popup-book-message');
 const formContactElement = document.querySelector('.form-contact-us');
+const formBookingElement = document.querySelector('.popup__form-booking');
 
 // Открытие попапа
 const openPopup = (popup) => {
@@ -62,8 +64,30 @@ popups.forEach((popup) => {
 });
 
 bookSpotButton.addEventListener('click', openBookSpotPopup);
+
 formContactElement.addEventListener('submit', (evt) => {
   evt.preventDefault();
   openPopup(contactUsPopup);
   formContactElement.reset();
+});
+
+formBookingElement.addEventListener('submit', (evt) => {
+  evt.preventDefault();
+  openPopup(bookMessagePopup);
+  closePopup(bookSpotPopup);
+});
+
+// Слайдер
+new Swiper('.swiper-container', {
+  navigation: {
+    nextEl: '.blog__button_next',
+    prevEl: '.blog__button_back'
+  },
+  grabCursor: true,
+  slidesPerView: 'auto',
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopedSlides: 0,
+  speed: 700,
 });

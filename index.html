@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
   <link rel="stylesheet" href="./pages/index.css">
   <title>yogamate</title>
 </head>
@@ -141,46 +143,48 @@
         <p class="blog__subtitle">Blog</p>
         <h2 class="blog__title">Yoga is not a work-out it is a work-in, and this is the point of spiritual practice to make us teachable to open up our hearts and focus our awareness so that we can know what we already know and be who we already are.</h2>
         <div class="blog__buttons">
-          <button type="button" class="blog__button blog__button_next">
           <button type="button" class="blog__button blog__button_back">
+          <button type="button" class="blog__button blog__button_next">
         </div>
-        <div class="cards-blog">
-          <article class="card-blog">
-            <img src="./images/img-blog-1.jpg" alt="Blog image" class="card-blog__image">
-            <h3 class="card-blog__title">Body neutrality is what body love looks like in everyday life</h3>
-            <p class="card-blog__paragraph">Sometimes when I talk with people, they say something that makes me really uncomfortable. It usually happens during a conversation about our relationships with our bodies and how we’re working with body acceptance.</p>
-            <button type="button" class="button button__read button__read_dark">Read more</button>
-          </article>
-          <article class="card-blog">
-            <img src="./images/img-blog-2.jpg" alt="Blog image" class="card-blog__image">
-            <h3 class="card-blog__title">The Unexpected Ways Body Acceptance Simplified My Life</h3>
-            <p class="card-blog__paragraph">Of all the things I expected from body acceptance (and that list was very long, trust me), what never even crossed my mind is that it would greatly simplify my life. But it has.</p>
-            <button type="button" class="button button__read button__read_dark">Read more</button>
-          </article>
-          <article class="card-blog">
-            <img src="./images/img-blog-3.jpg" alt="Blog image" class="card-blog__image">
-            <h3 class="card-blog__title">What I’ve Learned from 10+ Years of Body Acceptance</h3>
-            <p class="card-blog__paragraph">Someone recently asked me how long I’ve been on my body acceptance journey, and I realized it’s been more than a decade. It’s hard to pinpoint the beginning exactly because there was quite a while when I kept thinking there had to be another way than my years of chronic dieting.</p>
-            <button type="button" class="button button__read button__read_dark">Read more</button>
-          </article>
-          <article class="card-blog">
-            <img src="./images/img-blog-4.jpg" alt="Blog image" class="card-blog__image">
-            <h3 class="card-blog__title">Why Letting Go of Your Fantasy Practice Isn’t a Bad Thing</h3>
-            <p class="card-blog__paragraph">I’ve never been a New Year’s resolutions person. For most of my life, that wasn’t because I didn’t think they were a good idea.</p>
-            <button type="button" class="button button__read button__read_dark">Read more</button>
-          </article>
-          <article class="card-blog">
-            <img src="./images/img-blog-5.jpg" alt="Blog image" class="card-blog__image">
-            <h3 class="card-blog__title">Why Happiness &ne; Weight Loss</h3>
-            <p class="card-blog__paragraph">So here’s the thing: when you’re fat, many people assume you’re depressed, unhappy, had a terrible childhood, experienced trauma, or are just out of touch (that is, if they just don’t imagine you’re a lazy slob and write you off completely). After all, why else would anyone be fat?</p>
-            <button type="button" class="button button__read button__read_dark">Read more</button>
-          </article>
-          <article class="card-blog">
-            <img src="./images/img-blog-6.jpg" alt="Blog image" class="card-blog__image">
-            <h3 class="card-blog__title">What to Wear to Your First Yoga Class</h3>
-            <p class="card-blog__paragraph">One of the most frequently asked questions I receive is “Okay, I’m ready to go to a yoga class. But what do I wear?!” While on the surface this might seem like a funny, or even somewhat silly, question, it’s actually the complete opposite.</p>
-            <button type="button" class="button button__read button__read_dark">Read more</button>
-          </article>
+        <div class="swiper-container">
+          <div class="cards-blog swiper-wrapper">
+            <article class="card-blog swiper-slide">
+              <img src="./images/img-blog-1.jpg" alt="Blog image" class="card-blog__image">
+              <h3 class="card-blog__title">Body neutrality is what body love looks like in everyday life</h3>
+              <p class="card-blog__paragraph">Sometimes when I talk with people, they say something that makes me really uncomfortable. It usually happens during a conversation about our relationships with our bodies and how we’re working with body acceptance.</p>
+              <button type="button" class="button button__read button__read_dark">Read more</button>
+            </article>
+            <article class="card-blog swiper-slide">
+              <img src="./images/img-blog-2.jpg" alt="Blog image" class="card-blog__image">
+              <h3 class="card-blog__title">The Unexpected Ways Body Acceptance Simplified My Life</h3>
+              <p class="card-blog__paragraph">Of all the things I expected from body acceptance (and that list was very long, trust me), what never even crossed my mind is that it would greatly simplify my life. But it has.</p>
+              <button type="button" class="button button__read button__read_dark">Read more</button>
+            </article>
+            <article class="card-blog swiper-slide">
+              <img src="./images/img-blog-3.jpg" alt="Blog image" class="card-blog__image">
+              <h3 class="card-blog__title">What I’ve Learned from 10+ Years of Body Acceptance</h3>
+              <p class="card-blog__paragraph">Someone recently asked me how long I’ve been on my body acceptance journey, and I realized it’s been more than a decade. It’s hard to pinpoint the beginning exactly because there was quite a while when I kept thinking there had to be another way than my years of chronic dieting.</p>
+              <button type="button" class="button button__read button__read_dark">Read more</button>
+            </article>
+            <article class="card-blog swiper-slide">
+              <img src="./images/img-blog-4.jpg" alt="Blog image" class="card-blog__image">
+              <h3 class="card-blog__title">Why Letting Go of Your Fantasy Practice Isn’t a Bad Thing</h3>
+              <p class="card-blog__paragraph">I’ve never been a New Year’s resolutions person. For most of my life, that wasn’t because I didn’t think they were a good idea.</p>
+              <button type="button" class="button button__read button__read_dark">Read more</button>
+            </article>
+            <article class="card-blog swiper-slide">
+              <img src="./images/img-blog-5.jpg" alt="Blog image" class="card-blog__image">
+              <h3 class="card-blog__title">Why Happiness &ne; Weight Loss</h3>
+              <p class="card-blog__paragraph">So here’s the thing: when you’re fat, many people assume you’re depressed, unhappy, had a terrible childhood, experienced trauma, or are just out of touch (that is, if they just don’t imagine you’re a lazy slob and write you off completely). After all, why else would anyone be fat?</p>
+              <button type="button" class="button button__read button__read_dark">Read more</button>
+            </article>
+            <article class="card-blog swiper-slide">
+              <img src="./images/img-blog-6.jpg" alt="Blog image" class="card-blog__image">
+              <h3 class="card-blog__title">What to Wear to Your First Yoga Class</h3>
+              <p class="card-blog__paragraph">One of the most frequently asked questions I receive is “Okay, I’m ready to go to a yoga class. But what do I wear?!” While on the surface this might seem like a funny, or even somewhat silly, question, it’s actually the complete opposite.</p>
+              <button type="button" class="button button__read button__read_dark">Read more</button>
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -207,9 +211,12 @@
           <form class="form form-contact-us" name="contact-us" novalidate>
             <h2 class="form__title">Contact us</h2>
             <fieldset class="form__fieldset">
-              <input type="text" placeholder="Full name" class="form__input form__input_type_name" name="name" required minlength="2" maxlength="40">
-              <input type="email" placeholder="Email address" class="form__input form__input_type_email" name="email">
-              <input type="text" placeholder="Message" class="form__input form__input_type_message" name="message" required minlength="2" maxlength="200">
+              <input id="name-input" type="text" placeholder="Full name" class="form__input form__input_type_name" name="name" minlength="2" maxlength="40" required>
+              <span class="form__input-error name-input-error"></span>
+              <input id="email-input" type="email" placeholder="Email address" class="form__input form__input_type_email" name="email" required>
+              <span class="form__input-error email-input-error"></span>
+              <input id="message-input" type="text" placeholder="Message" class="form__input form__input_type_message" name="message" minlength="10" maxlength="200" required>
+              <span class="form__input-error message-input-error"></span>
             </fieldset>
             <button type="submit" class="form__submit-button">Send</button>
           </form>
@@ -301,6 +308,16 @@
     </div>
   </div>
 
+  <div class="popup popup-book-message">
+    <div class="popup__container">
+      <h2 class="popup__title">You have been successfully enrolled. Thank you!</h2>
+      <p class="popup__text">We will contact you soon.</p>
+      <button type="button" class="popup__close-button" aria-label="Закрыть"></button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="./scripts/index.js"></script>
+  <script src="./scripts/validate.js"></script>
 </body>
 </html>
